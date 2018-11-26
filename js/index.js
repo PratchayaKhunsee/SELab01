@@ -7,6 +7,7 @@
     window.profile = document.getElementById('profile');
     window.graph = document.getElementById('graph');
     window.pics = document.getElementById('pics'); 
+    window.vdo = document.getElementById('AV'); 
 
     window.moveToFirstTopic = function(){
         window.scrollTo(0,section.offsetTop-nav.offsetHeight);

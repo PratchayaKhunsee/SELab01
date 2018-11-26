@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Lato';
 }
@@ -60,7 +64,7 @@ header.masthead {
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
   background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background: linear-gradient(0deg, #008b2a 0%, #0f3300 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -85,7 +89,7 @@ header.masthead .bg-circle {
   position: absolute;
   border-radius: 100%;
   background: -webkit-gradient(linear, left bottom, left top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  background: linear-gradient(0deg, #032500 0%, #006108 100%);
 }
 
 header.masthead .bg-circle-1 {
